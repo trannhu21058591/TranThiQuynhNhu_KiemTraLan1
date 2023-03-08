@@ -1,8 +1,45 @@
 #menu-container{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 #left{
     display: flex;
     justify-content: space-around;
     width: 30%;
 }
+#right {
+    display: flex;
+    justify-content: space-around;
+}
+
+#banner h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 93px 50px 93px;
+}
+.nd h2, p, button{
+    margin-left: 50px;
+}
+
+button{
+    background-color: #459D7A;
+    width: 142px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+}
+
