@@ -1,3 +1,7 @@
+*{
+    margin: 0%;
+    padding: 0px;
+}
 #menu-container{
     display: flex;
     justify-content: space-around;
@@ -8,15 +12,29 @@
     justify-content: space-around;
     width: 30%;
 }
-#right {
+.right {
     display: flex;
     justify-content: space-around;
 }
-#right input[type = "text"]{
-   border-radius: 10px;
-   border: 1px solid darkgrey;
-   background-color: white;
-   width: 200px;
+.b a{
+    text-decoration: none;
+    color: black;
+}
+.right .search input{
+    background-color: white;
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    width: 170px;
+    outline: none;
+    padding-left: 35px;
+    height: 36px;
+}
+.right .search i{
+    color: #b6b6b6;
+    position: absolute;
+    top: 16px;
+    right: 390px;
 }
 #banner h1{
     text-align: center;
@@ -40,8 +58,34 @@
 }
 .nd h2, p, button{
     margin-left: 70px;
+    
 }
-
+.nd h2, p{
+    padding-top: 20px;
+}
+.nd h2{
+    font-size: 30px;
+}
+.nd .p1{
+    font-family: Georgia;
+    font-size: 23px;
+}
+.nd .p2{
+    font-style: italic;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: darkgray;
+}
+.nd1 p{
+    font-family: Georgia;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+.nd1{
+    padding-top: 50px;
+    padding-left: 40px;
+}
 button{
     background-color: #459D7A;
     width: 142px;
@@ -97,21 +141,28 @@ button{
     font-size: 20px;
 }
 .item2 .nd3{
+    padding-top: 10px;
     margin: 0px 0px 10px 0px;
     color: white;
 }
-input[type="text"] {
+.item2 input[type="text"] {
     border: 1px solid rgb(192, 192, 192);
     background-color: #1D2128;
     border-radius: 5px 0px 0px 5px;
-    height: 34px;
-    width: 215px;
-    padding-left: 15px;
+    height: 36px;
+    width: 260px;
+    padding-left: 43px;
     color: white;
     outline: none;
 
 }
-input[type="button"]{
+.item2 i{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    right: 510px;
+    top: 1569px;
+}
+.item2 input[type="button"]{
     border: none;
     height: 38px;
     padding: 0px;
@@ -120,10 +171,26 @@ input[type="button"]{
     background-color: #459D7A;
     margin-left: -5px;
     position: relative;
- 
+    width: 127px;
 }
 
 .hihh{
     margin: 30px 0px 0px 0px;
 }
+.hihh .hinh2{
+    margin-left: 10px;
+}
 
+.note ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.note ul li{
+    float: left;
+    margin: 20px;
+    color: white;
+}
+.note .note1{
+    list-style: none;
+}
