@@ -137,6 +137,16 @@ button{
     color: white;
     line-height: 30px;
 }
+.item ul li select{
+    margin-top: 10px;
+    width: 126px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #1D2128;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+}
 .item .tt{
     font-size: 20px;
 }
